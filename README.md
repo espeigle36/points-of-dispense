@@ -24,13 +24,19 @@ This repository contains jupyter notebooks for running two versions of a facilit
 
 - Analysis:
     - Analysis_1.ipynb includes comparisons of average and maximum distance traveled for each scenario and model, distributions of population-weighted distances for each scenario, and charts of the number of times each POD is selected in the global scenario
-    - Analysis_2.ipynb includes 
+    - Analysis_2.ipynb includes an analysis of the total population served by each POD as well as an analysis of car ownership rates by POD
     
 - Data folder: 
     - BG_master.xlsx contains block group information, with detailed descriptions in the data dictionary.
     - OD_Pairs_Distances.csv contains the distances in miles and driving time between each POD and each block group.
     - Data Dictionary.xlsx contains detailed descriptions of each data field.
-    
+	- Four CSVs on the POD and BG assignment for a 19-POD model created by Analysis_2.ipynb:
+		- total_19PODs_BGassignment.csv
+		- total_19PODs_popbypod.csv
+		- minmax_19PODs_BGassignment.csv
+		- minmax_19PODs_popbypod.csv
+
+
 - Pickles created by notebooks above:
     - pods_open_total2
     - pods_open_minmax2
@@ -40,4 +46,4 @@ This repository contains jupyter notebooks for running two versions of a facilit
     - pods_anthrax_minmax2
 	
 	
-- This repository also contains an ArcGIS file geodatabase, which does not need to be run and is only included for reference. It also contains two jpeg files, which were created using ArcGIS.
+- This repository also contains an ArcGIS file geodatabase (POD_geodatabase.gdb.zip), which does not need to be run and is only included for reference. It also contains two jpeg files, which were created using ArcGIS.
