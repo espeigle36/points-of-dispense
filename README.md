@@ -3,6 +3,7 @@
 #### Maxwell Kennady, Nora Murray, Elizabeth Speigle
 
 This repository contains jupyter notebooks for running two versions of a facility location problem for three scenarios:
+Note this repository also contains an ArcGIS file geodatabase, which does not need to be run and is only included for reference.
 
 - Scenario 1 - Global:
     - Templates for minimizing total distance and minimizing maximum distance with a given number of PODs:
