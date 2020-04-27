@@ -3,7 +3,8 @@
 #### Maxwell Kennady, Nora Murray, Elizabeth Speigle
 
 This repository contains jupyter notebooks for running two versions of a facility location problem for three scenarios:
-Note this repository also contains an ArcGIS file geodatabase, which does not need to be run and is only included for reference.
+
+
 
 - Scenario 1 - Global:
     - Templates for minimizing total distance and minimizing maximum distance with a given number of PODs:
@@ -37,3 +38,6 @@ Note this repository also contains an ArcGIS file geodatabase, which does not ne
     - pods_flood_minmax2
     - pods_anthrax_total
     - pods_anthrax_minmax2
+	
+	
+- This repository also contains an ArcGIS file geodatabase, which does not need to be run and is only included for reference. It also contains two jpeg files, which were created using ArcGIS.
